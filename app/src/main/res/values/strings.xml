@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">FitFlex</string>
+
+    <!-- MainActivity Strings -->
+    <string name="welcome">Welcome!</string>
+    <string name="workout_plan">Workout Plan</string>
+    <string name="suggestion">Suggestions</string>
+    <string name="settings">Settings</string>
+
+    <!-- SettingsActivity Strings -->
+    <string name="dark_mode">Dark Mode</string>
+    <string name="add_workout_reminder">Add Workout Reminder</string>
+
+    <!-- Login Activity (Optional, example) -->
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>
