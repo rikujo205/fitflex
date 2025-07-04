@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue -->
+    <color name="fitflex_blue">#2196F3</color>
+    <color name="fitflex_blue_dark">#1976D2</color>
+
+    <!-- Orange -->
+    <color name="fitflex_orange">#FF9800</color>
+    <color name="fitflex_orange_dark">#F57C00</color>
+
+    <!-- Common -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

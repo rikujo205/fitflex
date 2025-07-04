@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FitFlex" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color (blue) -->
+        <item name="colorPrimary">@color/fitflex_blue</item>
+        <item name="colorPrimaryDark">@color/fitflex_blue_dark</item>
+        <item name="colorAccent">@color/fitflex_orange</item>
+
+        <!-- Optional: background -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
