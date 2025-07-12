@@ -1,6 +1,6 @@
 FITFLEX 
 
-Fitflex is a workout app that is designed to help users who are new to the gym environment. By providing images of the human body with the target are shown in red, for visualization on eaxctly what techniques and what equipment to use for certain body area. Come join the community and  help each other to build a healthy body! 
+Fitflex is a workout app that is designed to help users who are new to the gym environment. By providing images of the human body with the target area shown in red, for visualization on eaxctly what techniques and what equipment to use for certain body area. Come join the community and  help each other to build a healthy body! 
 
 Contributors 
 
