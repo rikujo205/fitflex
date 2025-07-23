@@ -17,4 +17,13 @@
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="select_a_workout">Select A Workout</string>
+    <string name="upper_body_workout">Upper Body Workout</string>
+    <string name="back_workout">Back Workout</string>
+    <string name="core_workout">Core Workout</string>
+    <string name="lower_body_workout">Lower Body Workout</string>
+    <string name="please_select_a_workout_group">Please Select a Workout Group</string>
+    <string name="enter_your_workout_plan">Enter your workout plan</string>
+    <string name="save_workout">Save Workout</string>
+    <string name="add_reminder">Add Reminder</string>
 </resources>

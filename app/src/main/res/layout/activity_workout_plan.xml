@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:paddingTop="75dp">
 
     <EditText
         android:id="@+id/workoutInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter your workout plan"
+        android:hint="@string/enter_your_workout_plan"
         android:inputType="textMultiLine"
         android:minLines="3"
         android:padding="16dp"
@@ -20,7 +20,7 @@
         android:id="@+id/saveWorkoutButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save Workout"
+        android:text="@string/save_workout"
         android:onClick="saveWorkout"
         android:layout_marginBottom="16dp"/>
 
@@ -28,7 +28,7 @@
         android:id="@+id/addReminderButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Reminder"
+        android:text="@string/add_reminder"
         android:onClick="addCalendarReminder"/>
 
 </LinearLayout>

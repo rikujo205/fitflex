@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.FitFlex.app.R;
 import com.FitFlex.app.utils.SharedPrefManager;
 
@@ -28,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
         } else {
             greetingText.setText("Welcome!");
         }
+    }
+
+    public void openWorkoutSelection(View view) {
+        Intent intent = new Intent(this, WorkoutSelectionActivity.class);
+        startActivity(intent);
     }
 
     public void openWorkoutPlan(View view) {

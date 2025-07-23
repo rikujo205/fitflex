@@ -7,42 +7,41 @@
     android:gravity="center_horizontal">
 
     <TextView
-        android:id="@+id/greetingText"
+        android:id="@+id/SelectionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/welcome"
-        android:textSize="22sp"
+        android:text="@string/please_select_a_workout_group"
+        android:textSize="18sp"
         android:layout_marginBottom="32dp" />
 
     <Button
         android:id="@+id/openWorkoutSelection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openWorkoutSelection"
-        android:text="@string/select_a_workout" />
+        android:onClick="openUpperBodyWorkout"
+        android:text="@string/upper_body_workout" />
 
     <Button
         android:id="@+id/openWorkoutPlan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openWorkoutPlan"
-        android:text="@string/workout_plan"
+        android:onClick="openBackWorkout"
+        android:text="@string/back_workout"
         android:layout_marginTop="16dp"/>
 
     <Button
         android:id="@+id/openSuggestions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openSuggestions"
-        android:text="@string/suggestion"
+        android:onClick="openCoreWorkout"
+        android:text="@string/core_workout"
         android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/openSettings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:onClick="openSettings"
-        android:text="@string/settings" />
-
+        android:onClick="openLowerBodyWorkout"
+        android:text="@string/lower_body_workout"
+        android:layout_marginTop="16dp" />
 </LinearLayout>
