@@ -14,7 +14,7 @@
         android:theme="@style/Theme.FitFlex"
         tools:targetApi="31">
 
-        <!-- ✅ LoginActivity is launcher -->
+        <!-- LoginActivity is launcher -->
         <activity
             android:name="com.FitFlex.app.activities.LoginActivity"
             android:exported="true"
@@ -25,13 +25,16 @@
             </intent-filter>
         </activity>
 
-        <!-- ✅ Other activities -->
+        <!-- Other activities -->
         <activity android:name="com.FitFlex.app.activities.MainActivity" />
         <activity android:name="com.FitFlex.app.activities.SettingsActivity" />
         <activity android:name="com.FitFlex.app.activities.SuggestionActivity" />
         <activity android:name="com.FitFlex.app.activities.WorkoutPlanActivity" />
         <activity android:name=".activities.WorkoutSelectionActivity" />
-
+        <activity android:name="com.FitFlex.app.activities.UpperBodyWorkoutActivity" />
+        <activity android:name="com.FitFlex.app.activities.LowerBodyWorkoutActivity" />
+        <activity android:name="com.FitFlex.app.activities.BackWorkoutActivity" />
+        <activity android:name="com.FitFlex.app.activities.CoreWorkoutActivity" />
 
     </application>
 </manifest>

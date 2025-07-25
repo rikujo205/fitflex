@@ -26,4 +26,25 @@
     <string name="enter_your_workout_plan">Enter your workout plan</string>
     <string name="save_workout">Save Workout</string>
     <string name="add_reminder">Add Reminder</string>
+    <string name="_4_sets_10_reps_dumbell_curl">4 Sets 10 Reps: Dumbell Curl</string>
+    <string name="_4_sets_10_reps_tricep_extensions_weighted">4 Sets 10 Reps: Tricep Extensions (weighted)</string>
+    <string name="_4_sets_10_reps_bench_press">4 Sets 10 Reps: Bench Press</string>
+    <string name="_4_sets_10_reps_shoulder_shrugs_weighted">4 Sets 10 Reps: Shoulder Shrugs (Weighted)</string>
+    <string name="_4_sets_10_reps_pull_ups">4 Sets 10 Reps: Pull-Ups</string>
+    <string name="_4_sets_10_reps_bent_over_rows">4 Sets 10 Reps: Bent-Over Rows</string>
+    <string name="_4_sets_10_reps_chin_ups">4 Sets 10 Reps: Chin Ups</string>
+    <string name="_4_sets_10_reps_single_arm_dumbbell_rows">4 Sets 10 Reps: Single Arm Dumbbell Rows</string>
+    <string name="_4_sets_10_reps_dumbbell_curls">4 Sets 10 Reps: Dumbbell Curls</string>
+    <string name="_4_sets_25_reps_russian_twists">4 Sets 25 Reps: Russian Twists</string>
+    <string name="_4_sets_50_reps_bicycles">4 Sets 50 Reps: Bicycles</string>
+    <string name="_4_sets_2min_flutter_kicks">4 Sets 2Min: flutter Kicks</string>
+    <string name="_4_sets_25_reps_heel_tap_situps">4 Sets 25 Reps: Heel Tap Situps</string>
+    <string name="_4_sets_10_reps_squats_weighted">4 Sets 10 Reps: Squats (Weighted)</string>
+    <string name="_4_sets_10_reps_deadlifts">4 Sets 10 Reps: Deadlifts</string>
+    <string name="_4_sets_100yds_lunges_lightly_weighted">4 Sets 100yds: Lunges (Lightly Weighted)</string>
+    <string name="_4_sets_10_reps_leg_press">4 Sets 10 Reps: Leg Press</string>
+    <string name="_4_sets_10_reps_tricep_extensions">4 Sets 10 Reps: Tricep Extensions</string>
+    <string name="_4_sets_10_reps_shoulder_shrugs">4 Sets 10 Reps: Shoulder Shrugs</string>
+    <string name="_4_sets_10_reps_squats">4 Sets 10 Reps: Squats</string>
+    <string name="_4_sets_100yds_lunges">4 Sets 100yds: Lunges</string>
 </resources>
