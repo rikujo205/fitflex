@@ -9,8 +9,6 @@ import com.FitFlex.app.R;
 import com.FitFlex.app.utils.CalendarUtils;
 import com.FitFlex.app.utils.WorkoutPlanManager;
 
-//
-
 public class WorkoutPlanActivity extends AppCompatActivity {
 
     private EditText workoutInput;

@@ -1,7 +1,5 @@
 package com.FitFlex.app.activities;
 
-//
-
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,10 +8,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.content.SharedPreferences;
+import android.widget.LinearLayout;
+
 
 public class CoreWorkoutActivity extends AppCompatActivity {
 
-    private CheckBox checkbox1, checkbox2, checkbox3, checkbox4;
+    private CheckBox checkbox1, checkbox2, checkbox3, checkbox4, checkbox5, checkbox6, checkbox7, checkbox8;
     private Button myButton;
 
     @Override
@@ -51,10 +52,101 @@ public class CoreWorkoutActivity extends AppCompatActivity {
             }
         });
 
+        // Read selected level
+        SharedPreferences prefs = getSharedPreferences("FitFlexPrefs", MODE_PRIVATE);
+        int level = prefs.getInt("workoutLevel", 1);
+
+        // Add checkboxes dynamically based on level
+        LinearLayout layout = findViewById(R.id.workoutLayout); // You must add an ID to the LinearLayout in the XML
+
+        if (level >= 2) {
+            checkbox5 = new CheckBox(this);
+            checkbox5.setText("4 Sets 25 Reps: Plank Crunches (LEVEL 2)");
+            checkbox5.setId(View.generateViewId());
+
+            // Set padding (left, top, right, bottom) in pixels
+            int padding = (int) getResources().getDisplayMetrics().density;
+            checkbox5.setPadding(padding, padding, padding, padding);
+
+            // Set top margin (just like xml: layout_marginTop="50dp")
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            params.topMargin = (int) (getResources().getDisplayMetrics().density * 50); // 50dp
+            checkbox5.setLayoutParams(params);
+
+            layout.addView(checkbox5);
+            checkbox5.setOnCheckedChangeListener(listener);
+        }
+
+        if (level >= 2) {
+            checkbox6 = new CheckBox(this);
+            checkbox6.setText("4 Sets 25 Reps: Reverse Crunches (LEVEL 2)");
+            checkbox6.setId(View.generateViewId());
+
+            // Set padding (left, top, right, bottom) in pixels
+            int padding = (int) getResources().getDisplayMetrics().density;
+            checkbox6.setPadding(padding, padding, padding, padding);
+
+            // Set top margin (just like xml: layout_marginTop="50dp")
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            params.topMargin = (int) (getResources().getDisplayMetrics().density * 50); // 50dp
+            checkbox6.setLayoutParams(params);
+
+            layout.addView(checkbox6);
+            checkbox6.setOnCheckedChangeListener(listener);
+        }
+
+        if (level == 3) {
+            checkbox7 = new CheckBox(this);
+            checkbox7.setText("4 Sets 1.5Min Reps: Hollow Holds (LEVEL 3)");
+            checkbox7.setId(View.generateViewId());
+
+            int padding = (int) getResources().getDisplayMetrics().density;
+            checkbox7.setPadding(padding, padding, padding, padding);
+
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            params.topMargin = (int) (getResources().getDisplayMetrics().density * 50);
+            checkbox7.setLayoutParams(params);
+
+            layout.addView(checkbox7);
+            checkbox7.setOnCheckedChangeListener(listener);
+        }
+
+        if (level == 3) {
+            checkbox8 = new CheckBox(this);
+            checkbox8.setText("4 Sets 25 Reps: V Ups (LEVEL 3)");
+            checkbox8.setId(View.generateViewId());
+
+            int padding = (int) getResources().getDisplayMetrics().density;
+            checkbox8.setPadding(padding, padding, padding, padding);
+
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+            );
+            params.topMargin = (int) (getResources().getDisplayMetrics().density * 50);
+            checkbox8.setLayoutParams(params);
+
+            layout.addView(checkbox8);
+            checkbox8.setOnCheckedChangeListener(listener);
+        }
     }
 
     private void checkAllCheckboxes() {
         boolean allChecked = checkbox1.isChecked() && checkbox2.isChecked() && checkbox3.isChecked() && checkbox4.isChecked();
+
+        if (checkbox5 != null) allChecked &= checkbox5.isChecked();
+        if (checkbox6 != null) allChecked &= checkbox6.isChecked();
+
         myButton.setEnabled(allChecked);
     }
+
 }
