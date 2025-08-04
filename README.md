@@ -1,19 +1,19 @@
-FITFLEX 
+# FITFLEX 
 
 Fitflex is a workout app that is designed to help users who are new to the gym environment. By providing images of the human body with the target area shown in red, for visualization on exactly what techniques and equipment to use for certain body area. Come join us in this community and  help each other to build a healthy body! 
 
-Contributors 
+## Contributors 
 
--Angel Nguyen 
+- Angel Nguyen 
 
--Harvey Brunner 
+- Harvey Brunner 
 
--Dalton Reed 
+- Dalton Reed 
 
--Guillermo Torralva 
+- Guillermo Torralva 
 
  
-Installation 
+## Installation 
 
 To run FitFlex, follow these steps: 
 
@@ -26,4 +26,4 @@ To run FitFlex, follow these steps:
 -> After completing the workout, click the complete button to keep track your progress. (If you accidently clicked on the complete button, you are able to undo it by using the undo button) 
 
 
-Functionality 
+## Functionality 
