@@ -2,6 +2,10 @@
 
 Fitflex is a workout app that is designed to help users who are new to the gym environment. By providing images of the human body with the target area shown in red, for visualization on exactly what techniques and equipment to use for certain body area. Come join us in this community and  help each other to build a healthy body! 
 
+## Build Status
+
+Currently the app is still under development and some features have either not been added or are not functioning properly yet but everything listed in functionality should be working.
+
 ## Contributors 
 
 - Angel Nguyen 
@@ -17,13 +21,32 @@ Fitflex is a workout app that is designed to help users who are new to the gym e
 
 To run FitFlex, follow these steps: 
 
--> Clone this reposity and open the repository in Android Studio. 
+- Clone this reposity and open the repository in Android Studio. 
 
--> Create an account that will ask for what you would like your username and password to be. After setting up your account, you're ready to use the app.
+- Create an account that will ask for what you would like your username and password to be. After setting up your account, you're ready to use the app.
 
--> Decide on what what type of workout to do. Click on the respective choice for your workout.
+- Decide on what what type of workout to do. Click on the respective choice for your workout.
 
--> After completing the workout, click the complete button to keep track your progress. (If you accidently clicked on the complete button, you are able to undo it by using the undo button) 
+- After completing the workout, click the complete button to keep track your progress. (If you accidently clicked on the complete button, you are able to undo it by using the undo button) 
 
 
 ## Functionality 
+
+This app has 4 core features (Select a Workout, Workout Plan and Settings).
+- Workout Plan: Allows you to select a premade workout based on what group of muscles you would like to train (Core, Upper Body, Lower Body and Back).
+- Settings: Allows you to select the workout difficulty of the premade workouts offered in Workout Plan.
+- Workout Plan: Allows for the user to create a workout and/or workout date that better tailors to their needs and schedule.
+
+## Hardware, software and Coding Used
+
+We used are currently using a "google pixel 6" emulator running through "android studios" to produce the results stated and while Java is the primary is the primary language used, we are using XML for the design layout and compiling it in android studios which can use "Kotlin" and "gratle"
+
+## Known Issues
+
+While there isn't any program crashing bugs in the latest release of the program, usernames and passwords are not saving, and the program cannot save progress once the app has been exited.
+
+## How to Use
+
+Once the app's zip file has been downloaded from github, ensure that you install "Android Studios" and upload the zip file into it (once it has been unzipped on your machine). On the right side of Android Studios you should now see a "Manage Devices" option. Select the + icon to add an emulated device and select "Google Pixel 6". Now you should be able to select the run button at the top and the app should load after 15sec-1min.
+
+Once in the app enter a username and password (anything will work if you do not have one) and enjoy the simple self guided layout of the app!
