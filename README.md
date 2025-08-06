@@ -16,6 +16,9 @@ Currently the app is still under development and some features have either not b
 
 - Guillermo Torralva 
 
+## Video Demonstration
+
+
  
 ## Installation 
 
@@ -27,7 +30,7 @@ To run FitFlex, follow these steps:
 
 - Decide on what what type of workout to do. Click on the respective choice for your workout.
 
-- After completing the workout, click the complete button to keep track your progress. (If you accidently clicked on the complete button, you are able to undo it by using the undo button) 
+- After completing the workout, click the complete button to keep track your progress. (If you accidently clicked on the complete button, you are able to undo it by using the undo button).
 
 
 ## Functionality 
@@ -39,7 +42,7 @@ This app has 4 core features (Select a Workout, Workout Plan and Settings).
 
 ## Hardware, software and Coding Used
 
-We used are currently using a "google pixel 6" emulator running through "android studios" to produce the results stated and while Java is the primary is the primary language used, we are using XML for the design layout and compiling it in android studios which can use "Kotlin" and "gratle"
+We used are currently using a "google pixel 6" emulator running through "android studios" to produce the results stated and while Java is the primary is the primary language used, we are using XML for the design layout and compiling it in android studios which can use "Kotlin" and "gratle".
 
 ## Known Issues
 
