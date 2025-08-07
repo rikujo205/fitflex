@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.FitFlex.app.R;
 import com.FitFlex.app.utils.SharedPrefManager;
 
+import javax.sql.RowSet;
+
 public class MainActivity extends AppCompatActivity {
 
     TextView greetingText;
@@ -38,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openSuggestions(View view) {
-        Intent intent = new Intent(this, SuggestionActivity.class);
+    public void openProgress(View view) {
+        Intent intent = new Intent(this, ProgressActivity.class);
         startActivity(intent);
     }
 

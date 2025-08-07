@@ -45,6 +45,13 @@ public class LowerBodyWorkoutActivity extends AppCompatActivity {
         finishButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences prefs = getSharedPreferences("FitFlexPrefs", MODE_PRIVATE);
+                SharedPreferences.Editor editor = prefs.edit();
+
+                int count = prefs.getInt("lower_workout_count", 0);
+                editor.putInt("lower_workout_count", count + 1);
+                editor.apply();
+
                 Intent intent = new Intent(LowerBodyWorkoutActivity.this, WorkoutSelectionActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // optional: clears back stack
                 startActivity(intent);
