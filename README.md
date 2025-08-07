@@ -42,6 +42,7 @@ To run FitFlex, follow these steps:
 This app has 4 core features (Select a Workout, Workout Plan and Settings).
 - Workout Plan: Allows you to select a premade workout based on what group of muscles you would like to train (Core, Upper Body, Lower Body and Back).
 - Settings: Allows you to select the workout difficulty of the premade workouts offered in Workout Plan.
+- View Progress: Allows the user to view how many times out of 100 they finished that workout.
 - Workout Plan: Allows for the user to create a workout and/or workout date that better tailors to their needs and schedule.
 
 ## Hardware, software and Coding Used
@@ -92,7 +93,7 @@ This code shows all the java process/activities that will run in the app.
         <!-- Other activities -->
         <activity android:name="com.FitFlex.app.activities.MainActivity" />
         <activity android:name="com.FitFlex.app.activities.SettingsActivity" />
-        <activity android:name="com.FitFlex.app.activities.SuggestionActivity" />
+        <activity android:name="com.FitFlex.app.activities.ProgressActivity" />
         <activity android:name="com.FitFlex.app.activities.WorkoutPlanActivity" />
         <activity android:name=".activities.WorkoutSelectionActivity" />
         <activity android:name="com.FitFlex.app.activities.UpperBodyWorkoutActivity" />
