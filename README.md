@@ -93,7 +93,7 @@ This code shows all the java process/activities that will run in the app.
         <!-- Other activities -->
         <activity android:name="com.FitFlex.app.activities.MainActivity" />
         <activity android:name="com.FitFlex.app.activities.SettingsActivity" />
-        <activity android:name="com.FitFlex.app.activities.SuggestionActivity" />
+        <activity android:name="com.FitFlex.app.activities.ProgressActivity" />
         <activity android:name="com.FitFlex.app.activities.WorkoutPlanActivity" />
         <activity android:name=".activities.WorkoutSelectionActivity" />
         <activity android:name="com.FitFlex.app.activities.UpperBodyWorkoutActivity" />
